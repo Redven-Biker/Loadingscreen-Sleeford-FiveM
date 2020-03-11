@@ -4,14 +4,14 @@ $( document ).ready(function() {
 
 function loadDatSkweenie() {
   var banner = ["&nbsp", "L" ,"o", "s", "&nbsp", "S", "a", "n", "t", "o", "s", "&nbsp", "C", "i", "t", "y", "&nbsp", "R", "P", "&nbsp"]
-  var rules = ["Ne pas spam chat/micro.)", 
-               "Respecter le Staff et les autres joueurs.", 
-               "Ne tuez pas les joueurs sans raison (freekill).", 
-               "Ne pas abuser de votre travail.", 
-               "Ne pas spawnkill !",
-               "Ne pas troller, parler pour rien dire.",
-               "Ne pas freepunch.",
-               "Le streamtalk est interdit."
+  var rules = ["règle 1.", 
+               "règle 2.", 
+               "règle 3.", 
+               "règle 4.", 
+               "règle 5.",
+               "règle 6.",
+               "règle 7.",
+               "règle 8."
               ]
   var fadeTime = 500
   var fadeTime2 = 500

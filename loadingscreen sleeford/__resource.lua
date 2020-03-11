@@ -1,7 +1,8 @@
 files {
     'index.html',
     'js/index.js',
-    'css/style.css'
+    'css/style.css',
+    'music/loading.ogg'
 }
 
 loadscreen 'index.html'

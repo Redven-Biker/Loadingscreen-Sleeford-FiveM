@@ -10,9 +10,9 @@
 
   
 </head>
-
 <body>
-  <div class="bg"></div>
+<audio id="loading" autoplay loop ><source src="music/loading.ogg" type="audio/ogg"></audio>
+<div class="bg"></div>
 <div id="mainframe">
   <div class="banner"></div>
   <div id="container">
@@ -24,8 +24,8 @@
           <div class="propic"></div>
         </div>
         <p class="name">Los Santos City RP</p>
-        <p class="steamid">32 Slots</p>
-        <p class="steamid">https://discord.gg/b6aB5wS</p>
+        <p class="steamid">128 Slots</p>
+        <p class="steamid">https://discord.gg/J5HFpkF</p>
         <p class="steamid"> </p>
       </div>
       <div class="letni">
@@ -34,10 +34,13 @@
     </div>
   </div>
 </div>
-<iframe width='0' height='0' src='https://www.youtube.com/embed/9J4cObGMuPs?rel=0&autoplay=1' frameborder='0' allowfullscreen></iframe>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
 
-    <script src="js/index.js"></script>
+<script src="js/index.js"></script>
+<script>
+     var vid = document.getElementById("loading");
+     vid.volume = 0.1
+</script>
 
 <script type="text/javascript">
 // this will actually restart the loading bar a lot, making multiple loading bars is an exercise to the reader... for now.
@@ -85,6 +88,5 @@ window.addEventListener('message', function(e)
     (handlers[e.data.eventName] || function() {})(e.data);
 });
 </script>
-
-</body>
+    </body>
 </html>
